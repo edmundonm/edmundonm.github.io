@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Powered by Google Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <style type="text/css">
-      body {
-        background: #495B73;
-        color: white;
-        font-family: Open Sans;
-      }
-      .monogram-container {
-        border: 3px solid #fff;
-        width: 5em;
-        height: 5em;
-        border-radius: 5px;
-        display: flex;
-        align-items: center;
-        margin: 2em;
-      }
-      .monogram {
-        font-size: 2em;
-        margin: auto;
-        display: inline-block;
-      }
-      .centered-text {
-        text-align: center;
-        margin: 2em;
-      }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Powered by Skeleton CSS -->
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="index.css">
   </head>
+
   <body>
-    <div class="monogram-container">
-      <div class="monogram">EM</div>
+    <div class="container">
+      <nav class="row">
+        <a class="navlink" href="#">about</a>
+        <a class="navlink" href="#">projects</a>
+        <a class="navlink"  href="#">follow</a>
+      </nav>
+      <div class="row profile-main">
+        <div class="profile-circle-container four columns">
+          <div class="profile-circle"></div>
+        </div>
+        <div class="profile-bio-container seven columns">
+          <div class="profile-title">
+            <h1>Edmundo Martinez</h1>
+          </div>
+          <div class="profile-content">  
+            <p>I work mainly with Ruby on Rails and love Sci-Fi 👽 🛸</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer row">
+        <p>© 2023 Edmundo Martinez</p>
+      </div>
     </div>
-    <h1 class="centered-text">
-      Coming Soon
-    </h1>
   </body>
 </html>
